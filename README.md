@@ -28,5 +28,5 @@ CSS: Styling for the layout, cards, and buttons.
 JavaScript: Redirect functionality for the Register Button
 
 #Live Demo
-You can view the live site at:https://fossclub-lbsitw.github.io/tech_interview_2026/
+You can view the live site at:https:https://Sabeenafath.github.io/tech_interview_2026/
 
