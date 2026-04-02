@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,20 +11,67 @@
     <h1>FOSS Club</h1>
     <nav>
       <a href="#">Home</a>
-      <a href="#">Events</a>
-      <a href="#">Contact</a>
+      <a href="#events">Events</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
+  <!-- Events Section -->
+  <section id="events">
     <h2>Upcoming Events</h2>
 
+    <div class="card-container">
 
       <div class="card">
-        <h3>GIT HUB Basics</h3>
+        <img src="images/githubb.png" alt="GitHub">
+        <h3>GitHub Basics</h3>
         <p class="date">April 10, 2026</p>
-        <p>Learn basics of GIT HUB</p>
-        <button>Register</button>
+        <p>Learn basics of GitHub</p>
+        <button onclick="goToRegister()">Register</button>
       </div>
+
+      <div class="card">
+        <img src="images/web.png" alt="Web">
+        <h3>Web Workshop</h3>
+        <p class="date">April 15, 2026</p>
+        <p>Intro to Web Development</p>
+        <button onclick="goToRegister()">Register</button>
+      </div>
+
+      <div class="card">
+        <img src="images/tedtalk.png" alt="Tech Talk">
+        <h3>Tech Talk</h3>
+        <p class="date">April 20, 2026</p>
+        <p>Latest trends in tech</p>
+        <button onclick="goToRegister()">Register</button>
+      </div>
+
+      <div class="card">
+        <img src="images/coding.png" alt="Coding">
+        <h3>Coding Contest</h3>
+        <p class="date">April 25, 2026</p>
+        <p>Test your coding skills</p>
+        <button onclick="goToRegister()">Register</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <input type="text" placeholder="Your Name"><br>
+    <input type="email" placeholder="Your Email"><br>
+    <textarea placeholder="Your Message"></textarea><br>
+    <button>Send Message</button>
+  </section>
+
+  <!-- JS for Register Button -->
+  <script>
+    function goToRegister() {
+      window.location.href = "register.html";
+    }
+  </script>
 
 </body>
 </html>
